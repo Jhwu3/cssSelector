@@ -1,0 +1,29 @@
+
+p, h1{
+	background-color: orangered;
+}
+
+#container{
+	display: flex;
+	flex-direction: row ;
+	justify-content: space-around;
+}
+
+body > div {
+	border: solid 1vh black;
+}
+
+#container div {
+	border: solid 0.2vw greenyellow;
+}
+
+#container h2 {
+	color: darkgoldenrod;
+}
+
+#container > div > div{
+	border: solid 0.2vw royalblue;
+}
+p + p{
+	margin: 5vh;
+}
